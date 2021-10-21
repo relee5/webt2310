@@ -166,7 +166,7 @@ main {
 footer a:hover {
       color: #6fbc4d;
   }
-  .footer img {
+footer img {
       max-width: 100%;
   }
 main #about-main-content {
@@ -486,7 +486,7 @@ input[type=text], input[type=number], select, textarea {
     }
 
     .row {
-        left: 110px;
+        right: -40px;
     }
     .card {
         width: 300px;
@@ -533,4 +533,7 @@ input[type=text], input[type=number], select, textarea {
     .topnav.responsive a {
         font-size: 5vw;
     }
+    #footer-logo {
+    width: 50%;
+    text-align: center;    }
 }
