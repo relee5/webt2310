@@ -372,14 +372,14 @@ input[type=text], input[type=number], select, textarea {
     }
     #about-main-content .row {
         flex-direction: row;
+        justify-items: center;
     }
 
     #about-main-content .column-left {
-        width: 40%;
+        width: 30%;
     }
     #about-main-content .column-right {
-        width: 40%;
-        padding: 0px 100px 50px 50px;
+        width: 50%;
     }
     #about-small {
         display: none;
@@ -475,14 +475,6 @@ input[type=text], input[type=number], select, textarea {
         padding: 20px 16px;
         text-decoration: none;
         text-align: left;
-    }
-    #about-main-content .row {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        text-align: center;
-        font-size: 3vw;
     }
     main #about-main-content {
         padding: 1em;
