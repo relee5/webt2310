@@ -232,7 +232,7 @@ h2 {
     text-align: center;
     border-radius: 5px;
     box-shadow: 2px 2px 2px black;
-    resize: contain;
+    contain: content;
 }
 .service-card img {
     margin: 0;
