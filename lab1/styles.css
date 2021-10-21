@@ -226,7 +226,7 @@ h2 {
     text-align: center;
     border-radius: 5px;
     box-shadow: 2px 2px 2px black;
-    size: contain;
+    resize: contain;
 }
 .service-card img {
     margin: 0;
