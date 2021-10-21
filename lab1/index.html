@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" media="screen">
+    <title>Lee Tree Service</title>
+</head>
+
+<body>
+  <script>
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+  </script>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><picture>
+          <source srcset="images/oak_logo_2color_whitebackground_small.png" media="(max-width: 646px)">
+          <source srcset="images/oak_logo_2color_whitebackground.png">
+          <img src="images/oak_logo_2color_whitebackground.png" alt="Lee Tree Service Logo">
+        </picture></a>
+      </div>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact Us</a>
+        <div class="dropdown">
+          <button class="dropbtn">Menu
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="about.html">About Us</a></div>
+            <div><a href="services.html">Services</a></div>
+            <div><a href="contact.html">Contact</a></div>
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </nav>
+
+    <main>
+        <div class="overlay-image">
+            <img class="image" src="images/IMG_0038.JPG" alt="A chainsaw and an axe on top of a tree stump">
+          <div class="tagline">
+            <div class="text">The tree service you can trust.</div>
+            <div class="button"><a href="contact.html">Request an Estimate</a></div>
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="images/tree.png" alt="tree icon">
+            <div class="container">
+              <h4>Tree Care & Removal</h4>
+              <p>From pruning to full removals and everything in between, we've got you covered.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/911.png" alt="911 icon">
+            <div class="container">
+              <h4>24/7 Emergency Services</h4>
+              <p>Storm damage? Have a tree uprooting? Give us a call anytime, we'll be there for you.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/free.png" alt="free icon">
+            <div class="container">
+              <h4>Free Consultations & Estimates</h4>
+              <p>We never charge for our opinion. Set up a time for us to come take a look, no strings attached.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="main-content">
+        <p>Lee Tree Service provides professional tree care and removal to clients in the Signal Mountain, Red Bank, and North Chattanooga region of Tennessee.<br> 
+        As a family-owned and operated business, we strive to offer the highest quality and friendliest service in town.<br>
+        We are fully insured and can provide proof of insurance upon request.<br>
+        <a href="contact.html">Give us a call today to schedule your free consultation!​</p></a>
+        </div>
+    </main>
+
+    <footer>
+      <div class="row" id="footer-text">
+        <div class="column">
+            <a href="index.html"><img src="images/text_logo-1.png" alt="Lee Tree Service"></a>
+        </div>
+        <div class="column">
+          <p>(423) 243-4731</p>
+          <p><a href="mailto:beccadawkins@gmail.com">Email Lee Tree Service</a></p>
+        </div>
+        <div class="column">
+          <p>Copyright © Lee Tree Service 2021</p>
+        </div>
+       </div>
+       </div>
+    </footer>
+</body>
+
+</html>

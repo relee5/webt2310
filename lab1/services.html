@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" media="screen">
+    <title>Services - Lee Tree Service</title>
+</head>
+
+<body>
+  <script>
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+  </script>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><picture>
+          <source srcset="images/oak_logo_2color_whitebackground_small.png" media="(max-width: 646px)">
+          <source srcset="images/oak_logo_2color_whitebackground.png">
+          <img src="images/oak_logo_2color_whitebackground.png" alt="Lee Tree Service Logo">
+        </picture></a>
+      </div>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact Us</a>
+        <div class="dropdown">
+          <button class="dropbtn">Menu
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="about.html">About Us</a></div>
+            <div><a href="services.html">Services</a></div>
+            <div><a href="contact.html">Contact</a></div>
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </nav>
+
+   <div class="services">
+    <main>
+        <h1>Our Services</h1>
+        <div class="service-row">
+        <div class="service-column">
+          <div class="service-card">
+             <img src="images/shears.jpg" alt="Pruning shears">
+            <div class="service-container">
+              <h4>Pruning</h4>
+              <p>Responsible pruning and trimming is essential to the health of your trees, and removing dead limbs quickly can prevent property damage or personal injury.</p>
+            </div>
+          </div>
+        </div>
+        <div class="service-column">
+          <div class="service-card">
+              <img src="images/removal.jpg" alt="Climber removing a tree">
+            <div class="service-container">
+              <h4>Full Removals</h4>
+              <p>Have a dead tree on your property? From simple fellings to full-service removals and cleanup, we can handle any job,big or small.</p>
+            </div>
+          </div>
+        </div>
+        <div class="service-column">
+          <div class="service-card">
+              <img src="images/storm.jpg" alt="Fallen tree with house damage">
+            <div class="service-container">
+              <h4>Storm Cleanup</h4>
+              <p>Whether there's a tree on your roof or just a big mess in your yard, we can safely remove and clean fallen limbs and trees. We are available 24/7 for emergencies.</p>
+            </div>
+          </div>
+        </div>
+        <div class="service-column">
+          <div class="service-card">
+            <img src="images/cable.jpg" alt="Cabled tree">
+            <div class="service-container">
+              <h4>Cabling</h4>
+              <p>If you have a hazardous tree that you just aren't ready to say goodbye to yet, it is sometimes possible to reduce the risk by installing supportive cables. Let us take a look before you cut it down!</p>
+            </div>
+          </div>
+        </div>
+        <div class="service-column">
+          <div class="service-card">
+              <img src="images/dead-tree.jpg" alt="Dying tree">
+            <div class="service-container">
+              <h4>Tree Health Consultation</h4>
+              <p>Not sure if your tree is diseased or dying? We can help you with that. We provide FREE consultations, risk assessments, and estimates! <a href="about.html" target="_blank">Contact us</a> today to schedule an appointment.</p>
+            </div>
+          </div>
+        </div>
+    </main>
+    </div>
+
+    <footer>
+      <div class="row" id="footer-text">
+        <div class="column">
+            <a href="index.html"><img src="images/text_logo-1.png" alt="Lee Tree Service"></a>
+        </div>
+        <div class="column">
+          <p>(423) 243-4731</p>
+          <p><a href="mailto:beccadawkins@gmail.com">Email Lee Tree Service</a></p>
+        </div>
+        <div class="column">
+          <p>Copyright © Lee Tree Service 2021</p>
+        </div>
+       </div>
+       </div>
+    </footer>
+</body>
+
+</html>
