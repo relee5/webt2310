@@ -1,4 +1,4 @@
-##WEBT 2310 Project Page
+# WEBT 2310 Project Page
 
 <h1>Rebecca Lee Project Page</h1>
 
