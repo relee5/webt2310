@@ -191,6 +191,12 @@ main #about-main-content {
     flex: 30%;
     padding: 0px 0px 0px 50px;
 }
+.about-img {
+    max-width: 100%;
+}
+.column img {
+    max-width: 100%;
+}
 h1 {
     color: white;
     text-align: center;
