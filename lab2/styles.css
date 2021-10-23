@@ -1,0 +1,206 @@
+/* Created by Rebecca Lee 10/22/2021*/
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Navigation Styles */
+nav {
+    width: 100%;
+}
+.nav-row {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 7em;
+    width: 100%;
+    background-color: white;   
+}
+
+.logo {   
+    flex: 50%;
+    position: relative;
+    bottom: 3em;
+    z-index: 1;
+    margin: 3em 0 0 4.5em;
+    opacity: 80%;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo:hover {
+    transform: scale(1.25);
+    padding-left: 4em;
+    opacity: 100%;
+}
+
+.topnav {
+    flex: 50%;
+    text-align: right;
+    margin: 4.5em 2em 0 2em;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: #2c6e49;
+    font-size: 2vw;
+    padding-right: 1.5em;
+}
+
+.topnav a:hover {
+    color: #ffc9b9;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropbtn {
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+/* Main page Styles */
+main {
+    margin: 0 auto;
+}
+
+.banner-image {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image .image {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.name-banner {
+    background-color: #d68c45;
+    width: 100%;
+    height: 10em;
+    padding: 1em;
+    opacity: 80%;
+    position: relative;
+    top: -6em;
+    margin: 0;
+}
+
+.main-content {
+    margin: 0 auto;
+    width: 60%;
+    position: relative;
+    top: -3em;
+}
+
+.main-content a {
+    text-decoration: none;
+}
+
+.name-banner .text {
+    color: #fefee3;
+    font-size: 5em;
+    text-align: center;
+    position: relative;
+    bottom: -1em;
+}
+
+.top-badge {
+    height: 200px;
+    width: 200px;
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #ffc9b9;
+    position: relative;
+    left: -3em;
+    opacity: 80%;
+}
+
+.top-badge-text {
+    font-size: 5em;
+    color: #2c6e49;
+    position: relative;
+    right: -.55em;
+}
+
+.top-badge:hover {
+    transform: scale(1.25);
+    opacity: 100%;
+}
+
+.main-content p {
+    font-size: 2em;
+    color: #2c6e49;
+    padding: 1em;
+}
+
+.bottom-badge {
+    height: 200px;
+    width: 200px;
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #ffc9b9;
+    float: right;
+    opacity: 80%;
+  }
+
+.bottom-badge-text {
+    font-size: 2.1em;
+    color: #2c6e49;
+    position: relative;
+    bottom: -1.3em;
+    left: -.8em;
+}
+
+.bottom-badge:hover {
+    transform: scale(1.25);
+    opacity: 100%;
+}
+
+/* Footer styles */
+footer {
+    width: 100%;
+    background-color: #d68c45;
+    color: #fefee3;
+    font-size: 1em;
+    height: 7em;
+    overflow-y: hidden;
+}
+footer img:hover {
+    transform: scale(1.25);
+}
+.footer-row {
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.footer-column-left {
+    flex: 50%;
+    padding: 2em;
+}
+
+.footer-column-right {
+    flex: 50%;
+    padding: 2em;
+    text-align: right;
+}

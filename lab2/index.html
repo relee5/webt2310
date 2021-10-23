@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>Rebecca & Cyrus</title>
+</head>
+
+<body>
+  <script>
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
+    
+    <nav>
+    <div class="nav-row">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Rebecca & Cyrus logo">
+            </a>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="gallery.html">Gallery</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Menu
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                <div class="dropdown-content">
+                    <div><a href="index.html">Home</a></div>
+                    <div><a href="about.html">About Us</a></div>
+                    <div><a href="services.html">Gallery</a></div>
+                </div>
+                </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </div>
+    </nav>
+
+    <main>
+        <div class="banner-image">
+            <img class="image" src="images/main_banner.jpg" alt="Cyrus is carrying Rebecca on his back and they are both smiling and laughing at the camera">
+            <div class="name-banner">
+                <div class="text">Rebecca & Cyrus Lee</div>
+            </div>
+        </div>
+        <div class="main-content">
+           <a href="about.html" target="_blank"><div class="top-badge">
+                <div class="top-badge-text">
+                    Hello!
+                </div>
+            </div></a>
+
+            <p>We’re Rebecca and Cyrus, it’s good to meet you! This is just a place for us to document our adventures and memories.<br>
+            <br>
+            We aren’t the most exciting couple out there, and this won’t be the most exciting photo blog you’ll ever see. But we hope someone can find value in the experiences we have in our little slice of the world. And if we are the only ones who ever look at this, some day we will be glad to have it all recorded. </p>
+   
+            <a href="gallery.html">
+                <div class="bottom-badge">
+                    <div class="bottom-badge-text">
+                        Click to view our gallery
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-row">
+            <div class="footer-column-left">
+                <a href="https://www.instagram.com/redawk.lee/" target="_blank"><img src="images/instagram.png" alt="Instagram icon"></a>
+                <a href="https://www.facebook.com/leetreeservice/" target="_blank"><img src="images/facebook.png" alt="Facebook icon"></a>
+                <a href="mailto:rebeccaeliselee@gmail.com" target="_blank"><img src="images/email.png" alt="Email icon"></a>
+            </div>
+            <div class="footer-column-right">
+                <p>Copyright © Rebecca Lee 2021</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>    
+</html>
