@@ -93,31 +93,26 @@ main {
 .name-banner {
     background-color: #d68c45;
     width: 100%;
-    height: 10em;
-    padding: 1em;
-    opacity: 80%;
-    position: relative;
-    top: -6em;
+    height: 9em;
     margin: 0;
-}
-
-.main-content {
-    margin: 0 auto;
-    width: 60%;
-    position: relative;
-    top: -3em;
-}
-
-.main-content a {
-    text-decoration: none;
 }
 
 .name-banner .text {
     color: #fefee3;
     font-size: 5em;
     text-align: center;
+    margin-top: .25em;
+}
+
+.main-content {
+    margin: 0 auto;
+    width: 60%;
     position: relative;
-    bottom: -1em;
+    top: -1em;
+}
+
+.main-content a {
+    text-decoration: none;
 }
 
 .top-badge {
@@ -130,7 +125,7 @@ main {
     background: #ffc9b9;
     position: relative;
     left: -3em;
-    opacity: 80%;
+    bottom: .5em;
 }
 
 .top-badge-text {
@@ -142,11 +137,11 @@ main {
 
 .top-badge:hover {
     transform: scale(1.25);
-    opacity: 100%;
+    opacity: 80%;
 }
 
 .main-content p {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #2c6e49;
     padding: 1em;
 }
@@ -160,7 +155,6 @@ main {
     border-radius: 50%;
     background: #ffc9b9;
     float: right;
-    opacity: 80%;
   }
 
 .bottom-badge-text {
@@ -173,7 +167,7 @@ main {
 
 .bottom-badge:hover {
     transform: scale(1.25);
-    opacity: 100%;
+    opacity: 80%;
 }
 
 /* Footer styles */
@@ -204,3 +198,39 @@ footer img:hover {
     padding: 2em;
     text-align: right;
 }
+
+/* About Page styling */
+.top-badge-text-about {
+    font-size: 2.75em;
+    color: #2c6e49;
+    position: relative;
+    right: -.5em;
+}
+
+/* Gallery Page styling */
+h1 {
+    color: #2c6e49;
+    text-align: Center;
+}
+.gallery-row {
+    display: flex;
+    text-align: center;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery-column {
+    flex: 28%;
+    margin: 0 .05em;
+    width: 80%;
+}
+
+.gallery-column img {
+    max-width: 100%;
+    max-height: 350px;
+}
+
+
+
+
