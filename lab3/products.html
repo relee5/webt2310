@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Products - Becca's Bakery</title>
+  <link rel="shortcut icon" type="image/jpg" href="images/bread.png"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md align-items-end">
+      <!--Logo-->
+      <a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/logo-wht.png" alt="Becca's Bakery logo"></a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler align-self-center" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span>
+          <i class="fas fa-bars" style="color:white; font-size:28px;"></i>
+   </span>
+      </button>
+      
+      <!--Navbar links-->
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!--Carousel-->
+  <div id="demo" class="carousel slide text-center" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/dough.jpg" alt="Bread dough and a rolling pin" class="img-fluid">
+      </div>
+      <div class="carousel-item">
+        <img src="images/cupcakes.jpg" alt="Maple bacon cupcakes" class="img-fluid">
+      </div>
+      <div class="carousel-item">
+        <img src="images/coffee.jpg" alt="Coffee and raisin bread" class="img-fluid">
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
+  </div>
+
+<div class="container p-5 text-center">
+<!--Main Content-->
+    <h1>Our Products</h1>
+    <h1 class="small">These are just a few of our favorite things to bake...</h1>
+        <div class="row p-3 align-items-center">
+          <a href="images/cinnamon-rolls.jpg" data-toggle="lightbox" title="Cinnamon Rolls" data-gallery="gallery" class="col-lg-4 col-md-6 col-sm-12 p-2">
+            <img src="images/cinnamon-rolls.jpg" class="img-fluid img-thumbnail">
+          </a>
+          <a href="images/croissants.jpg" data-toggle="lightbox" data-gallery="gallery" title="Croissants" class="col-lg-4 col-md-6 col-sm-12 p-2">
+            <img src="images/croissants.jpg" class="img-fluid img-thumbnail">
+          </a>
+          <a href="images/muffins.jpg" data-toggle="lightbox" data-gallery="gallery" title="Muffins" class="col-lg-4 col-md-6 col-sm-12 p-2">
+            <img src="images/muffins.jpg" class="img-fluid img-thumbnail">
+          </a>
+          <a href="images/pie.jpg" data-toggle="lightbox" data-gallery="gallery" title="Pie" class="col-lg-4 col-md-6 col-sm-12 p-2">
+            <img src="images/pie.jpg" class="img-fluid img-thumbnail">
+          </a>
+          <a href="images/latte.jpg" data-toggle="lightbox" data-gallery="gallery" title="Latte" class="col-lg-4 col-md-6 col-sm-12 p-2">
+            <img src="images/latte.jpg" class="img-fluid img-thumbnail">
+          </a>
+          <a href="images/cookies.jpg" data-toggle="lightbox" data-gallery="gallery" title="Macarons" class="col-lg-4 col-md-6 col-sm-12 p-2">
+            <img src="images/cookies.jpg" class="img-fluid img-thumbnail">
+          </a>
+      </div>
+
+</div>
+
+<!--Footer-->
+<div class="footer container-fluid p-4 text-center text-light">
+  <div class="d-inline-flex justify-content-center" style="font-size:2em;">
+    <div class="p-3"><a href="fake/fake.html" target="_blank"><i class="fab fa-facebook"></i></a></div>
+    <div class="p-3"><a href="fake/fake.html" target="_blank"><i class="fab fa-instagram"></i></a></div>
+    <div class="p-3"><a href="fake/fake.html" target="_blank"><i class="fab fa-twitter"></i></a></div>
+  </div>
+
+  <div class="d-flex justify-content-center">
+    <div class="p-2">Hours:</div>
+    <div class="p-2">Sun 10a-5p</div>
+    <div class="p-2">Mon-Fri 8a-6p</div>
+    <div class="p-2">Closed Saturdays</div>
+  </div>
+
+  <div class="justify-content-center">© Copyright 2021 Becca's Bakery</div>
+
+</div>
+
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+<script>$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });</script>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Becca's Bakery</title>
+  <link rel="shortcut icon" type="image/jpg" href="images/bread.png"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md align-items-end">
+      <!--Logo-->
+      <a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/logo-wht.png" alt="Becca's Bakery logo"></a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler align-self-center" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span>
+          <i class="fas fa-bars" style="color:white; font-size:28px;"></i>
+   </span>
+      </button>
+      
+      <!--Navbar links-->
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Jumbotron-->
+    <div class="bg-image">
+      <img src="images/bakery.jpg" class="w-100">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+          <div class="text">
+            <p class="display-3">Welcome!</p>
+            <a href="menu.html"><button type="button" class="btn btn-outline-light">Our Menu</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--Cards-->
+  <div class="d-flex flex-wrap justify-content-center text-light text-center">
+    <div class="p-3">
+      <div class="card" style="width:300px">
+        <img class="card-img-top" src="images/cookies.jpg" alt="French Macarons">
+        <div class="card-body">
+          <h4 class="card-title">Our Story</h4>
+          <p class="card-text">Learn more about who we are and what we do</p>
+          <a href="about.html" class="btn btn-outline-light">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-3">
+      <div class="card" style="width:300px">
+        <img class="card-img-top" src="images/menu.jpg" alt="Menu">
+        <div class="card-body">
+          <h4 class="card-title">Our Menu</h4>
+          <p class="card-text">Check out what we offer at our storefront every day</p>
+          <a href="menu.html" class="btn btn-outline-light">Menu</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-3">
+      <div class="card" style="width:300px">
+        <img class="card-img-top" src="images/baguette.jpg" alt="French Macarons">
+        <div class="card-body">
+          <h4 class="card-title">Contact Us</h4>
+          <p class="card-text">Get in touch with us for your next event or craving</p>
+          <a href="contact.html" class="btn btn-outline-light">Let's Talk</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!--Main Content-->
+<div class="container p-5 text-dark">
+  <p class="display-4">Hello!</p>
+  <p style="font-size:x-large;">Becca's Bakery is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque maxime dolorum ad dolor cumque quidem delectus inventore nobis! Aliquam, molestias dicta iste assumenda nobis minus in blanditiis omnis vero suscipit!</p>
+</div>
+
+<!--Footer-->
+<div class="footer container-fluid p-4 text-center text-light">
+  <div class="d-inline-flex justify-content-center" style="font-size:2em;">
+    <div class="p-3"><a href="fake/fake.html" target="_blank"><i class="fab fa-facebook"></i></a></div>
+    <div class="p-3"><a href="fake/fake.html" target="_blank"><i class="fab fa-instagram"></i></a></div>
+    <div class="p-3"><a href="fake/fake.html" target="_blank"><i class="fab fa-twitter"></i></a></div>
+  </div>
+
+  <div class="d-flex justify-content-center">
+    <div class="p-2">Hours:</div>
+    <div class="p-2">Sun 10a-5p</div>
+    <div class="p-2">Mon-Fri 8a-6p</div>
+    <div class="p-2">Closed Saturdays</div>
+  </div>
+
+  <div class="justify-content-center">© Copyright 2021 Becca's Bakery</div>
+
+</div>
+
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</body>
+</html>

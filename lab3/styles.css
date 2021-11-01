@@ -1,0 +1,186 @@
+.body {
+    overflow-x: hidden;
+}
+.navbar {
+    background-color: rgb(245, 95, 95);
+}
+
+.navbar-brand img{
+    max-height: 200px;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    color: white;
+    margin-right: 1em;
+    font-size: 1.5em;
+}
+
+.nav-link:hover{
+    text-shadow:rgb(46, 40, 36) 2px 2px 2px;
+    color: white;
+}
+
+.navbar-toggler {
+    margin-right: 1em;
+}
+
+.btn:hover {
+    background-color:rgb(245, 95, 95);
+    color: white;
+    border: none;
+}
+
+.bg-image{
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image .mask{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color:#fff;
+}
+
+.bg-image .mask .text{
+    height: 100%;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    flex-direction: column;
+}
+
+
+.bg-image .mask .text .btn {
+    font-size: 2vw;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    margin-top: 4em;
+    border: none;
+    background-color: rgb(245, 95, 95);
+}
+
+
+.card .btn:hover {
+    background-color: white;
+    color: rgb(245, 95, 95);
+}
+
+.footer {
+    background-color: rgb(46, 40, 36);
+}
+
+.container a {
+    color: black;
+}
+
+.container a:hover {
+    text-decoration: none;
+    color:rgb(245, 95, 95);
+}
+
+.container-fluid a {
+    color:rgb(245, 95, 95);
+}
+
+.container-fluid a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-container {
+    padding: 4em;
+}
+
+.contact-container img {
+    padding-top: 2em;
+    padding-left: 1em;
+}
+
+.contact-container h2 {
+    color:rgb(245, 95, 95);
+    padding-bottom: 1em;
+}
+
+.contact-container a {
+    color: black;
+}
+
+.contact-container a:hover {
+    color: rgb(245, 95, 95);
+    text-decoration: none;
+}
+
+.social i {
+    font-size: 2em;
+    padding: 0 .5em 1em 0;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color:rgb(245, 95, 95);
+}
+
+.menu-container {
+    margin: 5em auto;
+    background-color:rgb(46, 40, 36);
+    color: white;
+    width: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.jumbotron {
+    background-image: url("images/breads.jpg");
+    background-position: -5em;
+}
+
+.carousel .carousel-inner .carousel-item {
+    max-height: 550px;
+}
+
+.about .row {
+    font-size: 1.75vh;
+}
+
+
+@media screen and (max-width: 985px) {
+    .container {
+      flex-direction: column;
+    }
+    .pic {
+      order: 1;
+    }
+
+    .text{
+     order: 2;
+    }
+
+    .menu-container {
+        width: 90%;
+    }
+
+}
+
