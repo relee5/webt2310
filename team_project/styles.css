@@ -1,6 +1,5 @@
 .body {
     overflow-x: hidden;
-    font-family: 'Lobster', cursive;
 }
 
 .navbar {
@@ -9,12 +8,13 @@
 
 .navbar-nav {
     margin-right: 2em;
+    font-family: 'Lobster', cursive;
 }
 
 .nav-link {
     color: white;
     margin-right: 1em;
-    font-size: 3vh;
+    font-size: 4vh;
 }
 
 .nav-link:hover{
@@ -80,8 +80,9 @@
     margin: 0;
 }
 
-.heading h1 {
+.heading {
     color:red;
+    font-family: 'Lobster', cursive;
 }
 
 .footer {
