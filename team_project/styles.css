@@ -117,7 +117,12 @@ ul {
     max-height: 500px;
 }
 
-h4 {
+.menu {
+    background-color: black;
+    color: white;
+}
+
+.menu h4 {
     color: red;
     text-align: center;
     font-weight: bold;
