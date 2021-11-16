@@ -1,9 +1,10 @@
 .body {
     overflow-x: hidden;
+    font-family: 'Lobster', cursive;
 }
 
 .navbar {
-    background-color: rgb(238, 3, 3);
+    background-color: red;
 }
 
 .navbar-nav {
@@ -39,7 +40,7 @@
 }
 
 .btn:hover {
-    background-color:rgb(238, 3, 3);
+    background-color:red;
     color: white;
     border: none;
 }
@@ -79,8 +80,8 @@
     margin: 0;
 }
 
-.heading {
-    color:rgb(238, 3, 3);
+.heading h1 {
+    color:red;
 }
 
 .footer {
@@ -97,7 +98,7 @@
 }
 
 .footer a:hover {
-    color:rgb(238, 3, 3)
+    color:red
 }
 
 .hours-sm {
@@ -112,8 +113,19 @@ ul {
     background-color: black;
 }
 
+.menu img {
+    max-height: 500px;
+}
 
+.menu h4 {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
 
+.menu h5 {
+    font-weight: bold;
+}
 
 @media screen and (max-width: 800px) {
     .hours-ext {
@@ -126,8 +138,3 @@ ul {
 
 }
 
-@media screen and (max-width: 600px) {
-    .logo {
-        transform:scale(.6)
-    }
-}
