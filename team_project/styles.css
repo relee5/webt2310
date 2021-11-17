@@ -114,6 +114,11 @@ ul {
     background-color: black;
 }
 
+.main {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .menu img {
     max-height: 500px;
 }
