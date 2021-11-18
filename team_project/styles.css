@@ -138,6 +138,16 @@ ul {
     font-weight: bold;
 }
 
+.row {
+    margin: 15px;
+  }
+
+  .ekko-lightbox-nav-overlay a{-ms-flex:1;flex:1;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;opacity:0;transition:opacity .5s;color:red;font-size:30px;z-index:1}
+
+
+
+
+
 @media screen and (max-width: 800px) {
     .hours-ext {
         display: none;
