@@ -7,14 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
   <header>
@@ -30,43 +31,39 @@
     </div>
   </div>
 
-  <!--Navbar-->  
-  <nav class="navbar navbar-expand-xl p-3 justify-content-between">
+<!--Navbar-->  
+<nav class="navbar navbar-expand-xl p-3">
     
-    <!--Social-->
-    <div class="nav-social d-inline-flex">
-        <div><a href="https://www.facebook.com/StevesLanding" target="_blank"><i class="fab fa-facebook"></i></a></div>
-        <div><a href="fake/fake.html" target="_blank"><i class="fab fa-instagram"></i></a></div>
-        <div><a href="fake/fake.html" target="_blank"><i class="fab fa-twitter"></i></a></div>
-    </div>
+  <!--Logo-->
+  <a class="navbar-brand ml-3" href="index.html"><img class="img-fluid" src="images/logo-small.png" alt="Steve's Landing logo"></a>
 
 
-    <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler align-self-center" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span>
-            <i class="fas fa-bars" style="color:white; font-size:4vh;"></i>
-            </span>
-        </button>
+<!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span>
+        <i class="fas fa-bars" style="color:white; font-size:3.5vh;"></i>
+        </span>
+    </button>
 
-    <!--Navbar links-->
-      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="menu.html">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-      </div>
-    </nav>
-  </header>
+<!--Navbar links-->
+  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+  <ul class="navbar-nav mr-3">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="menu.html">Menu</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact</a>
+    </li>
+  </ul>
+  </div>
+</nav>
+</header>
 
 
 <!--Carousel-->
@@ -113,109 +110,23 @@
 <!--Main Content-->
   <div class="heading text-center p-3">
   <h1>Our Menu</h1>
+  <p class="italic">Click to zoom in</p>
   </div>
 
-  <div class="menu container p-5 mt-5 mb-5">
+<!--Lightbox Gallery-->
+  <div class="container mb-5">
     <div class="row">
-        <div class="col-sm-12 col-lg-6">
-            <h4>Guests' Favorites</h4>
-            <br>
-            <h5>Rib Dinner</h5>
-            <p>Full rack of baby ribs. The ribs that made Steve's landing famous. Slow-cooked and basted with his "secret" BBQ sauce. For ribs with a "kick," try 'em blackened.</p>
-            <br>
-            <h5>Steak Dinner</h5>
-            <p>12 oz. center cutr ribeye. Grilled, blackened, or basted with BBQ sauce.</p>
-            <br>
-            <h4>Seafood Platters</h4>
-            <br>
-            <h5>Fried Catfish Platter</h5>
-            <p>Farm-raised catfish, hand-batterd & fried to perfection.</p>
-            <br>
-            <h5>Fried Shrimp Platter</h5>
-            <p>One dozen large shrimp.</p>
-            <br>
-            <h5>Fried Combo Platter</h5>
-            <p>Hand battered catfish filet & half a dozen large shrimp.</p>
-            <br>
-            <h5>Boiled Shrimp Platter</h5>
-            <p>1/2 lb. large shrimp boiled in Cajun seasonings.</p>
-            <br>
-            <h5>Fried Grouper Platter</h5>
-            <p>Large filet, hand battered & golden fried.</p>
-            <br>
-            <h4>The Lighter Side</h4>
-            <br>
-            <h5>Tuna- Yellow Fin</h5>
-            <p>8 oz. steak cut, grilled with herb butter or blackened.</p>
-            <br>
-            <h5>Swordfish</h5>
-            <p>Firm white fish, grilled with herb butter or blackened.</p>
-            <br>
-            <h5>Mahi-Mahi</h5>
-            <p>FLaky off-white fish, grilled & topped with herb butter.</p>
-            <br>
-            <h4>Not-So-Light Side</h4>
-            <br>
-            <h5>Bayou Chicken</h5>
-            <p>Steve's Louisiana twist on Cajun chicken. Placed on a bed of cornbread dressing, topped with a spicy crawfish and mushroom sauce.</p>
-            <br>
-            <h5>Smothered Catfish</h5>
-            <p>Two hand battered filets smothered in a white wine sauce with shrimp & fresh scallions.</p>
-            <br>
-            <h5>Grilled Pork Chops</h5>
-            <p>Two 6 oz. chops seasoned & grilled to tender perfection.</p>
-            <br>
-            </div>
-            <div class="col-sm-12 col-lg-6">
-            <h4>Chicken Dinners</h4>
-            <br>
-            <h5>Grilled Chicken</h5>
-            <p>An 8 oz. skinless breast.</p>
-            <br>
-            <h5>Cajun Chicken</h5>
-            <p>Grilled chicken coated with Cajun spices.</p>
-            <br>
-            <h5>Kickin' Chicken</h5>
-            <p>Grilled chicken breast basted with BBQ sauce, covered with Monterey Jack & Cheddar cheese, topped with fresh diced tomatoes & scallions.</p>
-            <br>
-            <h5>Chicken Strips</h5>
-            <p>Four chicken tenders fried to a golden perfection.</p>
-            <br>
-            <h4>Pasta</h4>
-            <br>
-            <h5>Ragin' Cajun Pasta</h5>
-            <p>Alfredo-based pasta with diced red peppers, scallions, Cajun spices & topped with Cajun chicken.</p>
-            <br>
-            <h5>Shrimp Alfredo</h5>
-            <p>Creamy garlic Alfredo sauce tossed in a sea of baby shrimp, fettuccine noodles & fresh-cut scallions.</p>
-            <br>
-            <h5>Garlic Alfredo</h5>
-            <p>Made from scratch & tossed with fettuccine noodles.</p>
-            <br>
-            <h4>Half-Pound Black Angus Burgers</h4>
-            <br>
-            <h5>Basic Burger</h5>
-            <p>Burger with fixings.</p>
-            <br>
-            <h5>Cheeseburger</h5>
-            <p>Basic burger with choice of cheese.</p>
-            <br>
-            <h5>Steve's Favorite</h5>
-            <p>Monterey Jack & Cheddar cheese melted over BBQ sauce topped with fixings.</p>
-            <br>
-            <h5>The Old Dockside</h5>
-            <p>Two beef patties with fixings.</p>
-            <br>
-            <h4>Hot Wings</h4>
-            <br>
-            <p>Steve's jumbo wings are cut fresh & deep-fried in canola oil & topped with his special sauce. Served with celery sticks and your choice of Blue Cheese or Ranch dressing.</p>
-            <p>Small (1 lb) — Medium (1.5 lbs) — Large (2 lbs)</p>
-            </div>
-        </div>
+      <a href="images/menu_1.jpeg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4 mb-2" alt="Menu 1">
+        <img src="images/menu_1.jpeg" class="img-fluid rounded">
+      </a>
+      <a href="images/menu_2.jpeg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4 mb-2">
+        <img src="images/menu_2.jpeg" class="img-fluid rounded" alt="Menu 2">
+      </a>
+      <a href="images/menu_3.jpeg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4 mb-2">
+        <img src="images/menu_3.jpeg" class="img-fluid rounded" alt="Menu 3">
+      </a>
     </div>
-</div>
-</div>
-
+  </div>
 
 <!--Footer-->
 <div class="footer container-fluid p-4 text-center text-light">
@@ -254,15 +165,12 @@
             <div class="p-2" style="color: rgb(91, 90, 90);">Deisgn by WEBT 2310 Team</div>
         </div>
     </div>
-
-
-
+</div>
 </div>
 
-</div>
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script>$(document).on("click", '[data-toggle="lightbox"]', function (event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});</script>
 </body>
 </html>

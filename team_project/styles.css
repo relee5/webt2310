@@ -3,13 +3,13 @@
 }
 
 .navbar {
-    background-color: red;
+    background-color: #DA0037;
 }
 
 .navbar-nav {
-    margin-right: 2em;
     font-family: 'Lobster', cursive;
 }
+
 
 .nav-link {
     color: white;
@@ -21,26 +21,8 @@
     color: black;
 }
 
-.navbar-toggler {
-    margin-right: 2em;
-}
-
-.nav-social {
-    margin-left: 2em;
-}
-
-.nav-social a {
-    font-size: 5vh;
-    color: white;
-    margin-left: 1em;
-}
-
-.nav-social a:hover {
-    color: black;
-}
-
 .btn:hover {
-    background-color:red;
+    background-color:#DA0037;
     color: white;
     border: none;
 }
@@ -81,7 +63,7 @@
 }
 
 .heading {
-    color:red;
+    color:#DA0037;
     font-family: 'Lobster', cursive;
 }
 
@@ -99,7 +81,7 @@
 }
 
 .footer a:hover {
-    color:red
+    color:#DA0037
 }
 
 .hours-sm {
@@ -119,31 +101,18 @@ ul {
     margin: 0 auto;
 }
 
-.menu img {
-    max-height: 500px;
-}
-
-.menu {
-    background-color: black;
-    color: white;
-}
-
-.menu h4 {
-    color: red;
-    text-align: center;
-    font-weight: bold;
-}
-
-.menu h5 {
-    font-weight: bold;
-}
-
-.row {
-    margin: 15px;
-  }
-
-  .ekko-lightbox-nav-overlay a{-ms-flex:1;flex:1;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;opacity:0;transition:opacity .5s;color:red;font-size:30px;z-index:1}
-
+  .ekko-lightbox-nav-overlay a {
+      -ms-flex:1;
+      flex:1;
+      display:-ms-flexbox;
+      display:flex;
+      -ms-flex-align:center;
+      align-items:center;
+      opacity:0;
+      transition:opacity .5s;
+      color:#DA0037;font-size:30px;
+      z-index:1
+    }
 
 
 
