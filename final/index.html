@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rebecca Lee Designs</title>
+  <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <!--Logo-->
+      <a class="navbar-brand ml-4" href="index.html"><img class="img-fluid" src="images/rldesigns_logo_small.png" alt="Rebecca Lee Designs logo"></a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler align-self-center mr-3" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span>
+          <i class="fas fa-bars" style="color: #c16e70; font-size: 5vw;"></i>
+        </span>
+      </button>
+      
+      <!--Navbar links-->
+        <div class="collapse navbar-collapse justify-content-end text-center" id="collapsibleNavbar">
+
+            <ul class="navbar-nav m-2">
+                <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="index.html#work">WORK</a>
+
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="modal" data-target="#myModal" style="cursor: pointer;">CONTACT</a>
+                  </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- The Modal -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <button type="button" class="close m-5" data-dismiss="modal" style="text-align: right; color:white;">&times;</button>
+
+      <!-- Modal body -->
+      <div class="modal-body text-center">
+          <h1 class="mb-5">LET'S CHAT</h1>
+          <a href="mailto:beccadawkins@gmail.com"><i class="far fa-paper-plane"></i> Email me</a>
+          
+         <a href="https://www.instagram.com/redawk.lee">
+          <i class="fab fa-instagram"></i> DM me</a>
+      </div>
+    </div>
+  </div>
+</div>
+  </header>
+
+  <!--Welcome Banner-->
+  <div class="welcome-container">
+    <div class="welcome-text text-center">
+      <img src="images/hello.png" alt="hello" class="img-fluid mb-5">
+      <h4>I'm Rebecca Lee, a freelance graphic designer and UI developer.</h4>
+      <a class="btn btn-outline mt-3" style="border: #151e3f solid 1px;" href="about.html">Get to know me.</a>
+    </div>
+  </div>
+
+<!--Card Columns-->
+    <div class="container-fluid" id="work">
+      <div class="row mt-5 mb-5">
+        <div class="col-lg-4 col-md-12">
+        <a href="lee-tree-service.html">
+            <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">LEE TREE SERVICE</h3>
+                <p class="card-text">Logo/business card design + UI design/development</p>
+                <p class="card-subtext">School Project 2021</p>
+            </div>
+            <img class="card-img-bottom img-fluid" src="images/lee_tree.png" alt="Lee Tree Service Website">
+        </div>
+        </a>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+            <a href="rc-blog.html">
+            <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">R&C PHOTO BLOG</h3>
+                <p class="card-text">Logo design + UI design/development</p>
+                <p class="card-subtext">School Project 2021</p>
+            </div>
+            <img class="card-img-bottom img-fluid" src="images/r_and_c.png" alt="Rebecca & Cyrus Website">
+        </div>
+        </a>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+        <a href="beccas-bakery.html">
+        <div class="card">            
+            <div class="card-body">
+                <h3 class="card-title">BECCA'S BAKERY</h3>
+                <p class="card-text">Logo design + UI design/development </p>
+                <p class="card-subtext">School Project 2021</p>
+            </div>
+            <img class="card-img-bottom img-fluid" src="images/beccas_bakery.png" alt="Becca's Bakery Website">
+        </div>
+        </a>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+        <a href="steves-landing.html">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">STEVE'S LANDING WATERFRONT GRILL</h3>
+                <p class="card-text">UI design/development</p>
+                <p class="card-subtext">School Project 2021</p>
+            </div>
+            <img class="card-img-bottom img-fluid" src="images/steves_landing.png" alt="Steve's Landing Website">
+        </div>
+        </a>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+        <a href="wedding-signs.html">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">WEDDING SIGNS</h3>
+                    <p class="card-text">Graphic design</p>
+                    <p class="card-subtext">Personal Project 2020</p>
+                </div>
+                <img class="card-img-bottom img-fluid" src="images/wedding.png" alt="Wedding Sign">
+            </div>
+            </a>
+            </div>
+
+      </div>
+    </div>
+
+    <div class="footer text-center">
+        <h3>LET'S CHAT:</h3>
+
+        <i class="far fa-paper-plane" style="color: #151e3f; margin-right: 5px;">
+            <a href="mailto:beccadawkins@gmail.com">Email me</a>
+        </i>
+
+        <i class="fab fa-instagram" style="color: #151e3f; margin-right: 5px;">
+            <a href="https://www.instagram.com/redawk.lee">DM me</a>
+        </i>
+
+        <p class="mt-4">© 2021 Rebecca Lee Designs</p> 
+    </div>
+</body>
+</html>
