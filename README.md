@@ -8,4 +8,5 @@
   <li><a href="lab3/index.html" target="_blank">Lab 3</a></li>
   <li><a href="team_project/index.html" target="_blank">Team Project</a></li>
   <li><a href="final/index.html" target="_blank">Final Project</a></li>
+  <li><a href="internship/index.html" target="_blank">Internship - Electric Salon + Gallery</a></li>
 </ul>
